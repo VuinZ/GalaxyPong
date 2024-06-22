@@ -36,13 +36,13 @@ public class GameManager : MonoBehaviour
 
     public void ScoreCheck()
     {
-        if (PlayerScoreL == 20)
+        if (PlayerScoreL == 100)
         {
             Debug.Log("playerL win");
             this.gameObject.SendMessage("ChangeScene", "Player1WIN");
 
         }
-        else if (PlayerScoreR == 20)
+        else if (PlayerScoreR == 100)
         {
             Debug.Log("playerR win");
             this.gameObject.SendMessage("ChangeScene", "Player2WIN");

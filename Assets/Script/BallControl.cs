@@ -15,12 +15,12 @@ public class BallControl : MonoBehaviour
         float rand = Random.Range(0, 2); //akan random nilai diantara 0-1
         if (rand < 1)
         { 
-            rb2d.AddForce(new Vector2(20, -15)); //add force memberikan tenaga
+            rb2d.AddForce(new Vector2(50, -15)); //add force memberikan tenaga
 					
         }
         else
         {
-            rb2d.AddForce(new Vector2(-20, -15));
+            rb2d.AddForce(new Vector2(-50, -15));
         }
     }
 
