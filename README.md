@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="link-ke-gambar1.jpg" width="200" />
+  <img src="banner_pong.png" width="800" />
 </p>
 
 ## About
