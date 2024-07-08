@@ -40,7 +40,12 @@ public class SceneManagement : MonoBehaviour
 
     public void OnePlayer()
     {
-        SceneManager.LoadScene("GameAI");
+        SceneManager.LoadScene("SoloGameEasy");
+    }
+
+    public void OnePlayerhard()
+    {
+        SceneManager.LoadScene("SoloGameHard");
     }
 
     public void TwoPlayer()

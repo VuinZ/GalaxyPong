@@ -14,6 +14,10 @@ public class GameManager : MonoBehaviour
     public TMP_Text txtPlayerScoreL;
     public TMP_Text txtPlayerScoreR;
 
+
+    public Animator healthBarAnimatorL;
+    public Animator healthBarAnimatorEnemy;
+
     public static GameManager instance;
     public void Awake()
     {
@@ -36,13 +40,13 @@ public class GameManager : MonoBehaviour
 
     public void ScoreCheck()
     {
-        if (PlayerScoreL == 100)
+        if (PlayerScoreL == 90)
         {
             Debug.Log("playerL win");
             this.gameObject.SendMessage("ChangeScene", "Player1WIN");
 
         }
-        else if (PlayerScoreR == 100)
+        else if (PlayerScoreR == 90)
         {
             Debug.Log("playerR win");
             this.gameObject.SendMessage("ChangeScene", "Player2WIN");
@@ -55,14 +59,19 @@ public class GameManager : MonoBehaviour
         if (wallID == "Player1Goal")
         {
             PlayerScoreR = PlayerScoreR + 10; //Menambah score
+            healthBarAnimatorL.SetInteger("poin", PlayerScoreR);
             txtPlayerScoreR.text = PlayerScoreR.ToString();//Mengisikan nilai integer PlayerScore ke UI
+            
             ScoreCheck();
         }
         else
         {
             PlayerScoreL = PlayerScoreL + 10;
+            healthBarAnimatorEnemy.SetInteger("poin", PlayerScoreL);
             txtPlayerScoreL.text = PlayerScoreL.ToString();
+            
             ScoreCheck();
+
 
         }
     }

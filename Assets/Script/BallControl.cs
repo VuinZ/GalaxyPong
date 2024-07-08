@@ -5,6 +5,7 @@ using UnityEngine;
 public class BallControl : MonoBehaviour
 {
     private Rigidbody2D rb2d;
+    public float minSpeed = 20f;
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>(); //mengambil rigidbody component dari sebuah bole
@@ -15,12 +16,12 @@ public class BallControl : MonoBehaviour
         float rand = Random.Range(0, 2); //akan random nilai diantara 0-1
         if (rand < 1)
         { 
-            rb2d.AddForce(new Vector2(50, -15)); //add force memberikan tenaga
+            rb2d.AddForce(new Vector2(100, -30)); //add force memberikan tenaga
 					
         }
         else
         {
-            rb2d.AddForce(new Vector2(-50, -15));
+            rb2d.AddForce(new Vector2(-100, -30));
         }
     }
 
@@ -49,6 +50,17 @@ public class BallControl : MonoBehaviour
             rb2d.velocity = vel;
 
         }
+        AdjustBallSpeed();
     }
+    void AdjustBallSpeed()
+    {
+        // Mengambil kecepatan bola
+        Vector2 currentVelocity = rb2d.velocity;
 
+        // Jika kecepatan di bawah nilai minimum, sesuaikan
+        if (currentVelocity.magnitude < minSpeed)
+        {
+            rb2d.velocity = currentVelocity.normalized * minSpeed;
+        }
+    }
 }

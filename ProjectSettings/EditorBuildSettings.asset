@@ -16,8 +16,14 @@ EditorBuildSettings:
     guid: b3d70a6dac9234248b42556519aa9d27
   - enabled: 1
     path: Assets/Scenes/Player2WIN.unity
-    guid: 264a86eb8c1040940a11b687a35f9202
-  - enabled: 1
+    guid: a9a468dcddd417a4a8c8d84afc245b16
+  - enabled: 0
     path: Assets/Scenes/GameAI.unity
     guid: b1fa431ee4c525948bd886cd15f7cfb7
+  - enabled: 1
+    path: Assets/Scenes/SoloGameEasy.unity
+    guid: eff0eb428e439e94cb1fa79b1ed6396d
+  - enabled: 1
+    path: Assets/Scenes/SoloGameHard.unity
+    guid: a5c6c7a57425a214494f4f7f34e46440
   m_configObjects: {}

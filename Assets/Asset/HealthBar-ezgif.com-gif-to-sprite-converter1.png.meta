@@ -1,0 +1,677 @@
+fileFormatVersion: 2
+guid: ccc106fb5a9d62649a1c338096fa1edc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HealthBar-ezgif.com-gif-to-sprite-converter1_0
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 467
+        width: 1287
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345636778c404b342a5d69c1b1e10956
+      internalID: -1306492970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar-ezgif.com-gif-to-sprite-converter1_1
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 467
+        width: 1283
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b826a9f8645349d498e240ec4c5a2657
+      internalID: -1839342648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar-ezgif.com-gif-to-sprite-converter1_2
+      rect:
+        serializedVersion: 2
+        x: 2957
+        y: 467
+        width: 1286
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781cffc09a3a6f94dac32b4f02db1c18
+      internalID: -2021613797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar-ezgif.com-gif-to-sprite-converter1_3
+      rect:
+        serializedVersion: 2
+        x: 4398
+        y: 467
+        width: 1283
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f60a93cc60f2ae4aaee8d084270dc95
+      internalID: 1191276215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar-ezgif.com-gif-to-sprite-converter1_4
+      rect:
+        serializedVersion: 2
+        x: 5836
+        y: 467
+        width: 1287
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1944b1f23a233e448bb168c2b8aefd10
+      internalID: -1868181299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar-ezgif.com-gif-to-sprite-converter1_5
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 67
+        width: 1125
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a1f7209df244b4793fdfd0d6fbae8b
+      internalID: -1448861682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar-ezgif.com-gif-to-sprite-converter1_6
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 309
+        width: 67
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce16dcfbbf44d543978793b2b546e66
+      internalID: -866630085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar-ezgif.com-gif-to-sprite-converter1_7
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 298
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8716e6ab1eaaa434c96dc3ac96c8efe0
+      internalID: -934872180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar-ezgif.com-gif-to-sprite-converter1_8
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 67
+        width: 1265
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d6d3d4c68c2464a985431a38f29261
+      internalID: -295081807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar-ezgif.com-gif-to-sprite-converter1_9
+      rect:
+        serializedVersion: 2
+        x: 2957
+        y: 67
+        width: 1276
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79b5499c5b97d9479e7299b32f54d8e
+      internalID: -1105965059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar-ezgif.com-gif-to-sprite-converter1_10
+      rect:
+        serializedVersion: 2
+        x: 4398
+        y: 67
+        width: 1283
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e4e055cc6705f459810b090b77e8d7
+      internalID: 1634608611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar-ezgif.com-gif-to-sprite-converter1_11
+      rect:
+        serializedVersion: 2
+        x: 5836
+        y: 67
+        width: 1287
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a095e311c2d1995479ad77dd4939f0f2
+      internalID: -443953319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar-ezgif.com-gif-to-sprite-converter1_12
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 267
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707a36dcff54bb640977e7600d520a9d
+      internalID: 606489764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar-ezgif.com-gif-to-sprite-converter1_13
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 228
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152d0e2d28a8e804b9c91db46a188e35
+      internalID: 1393324622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar-ezgif.com-gif-to-sprite-converter1_14
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 256
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78e0eae99e9665409baf64121fd370a
+      internalID: -1845506015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar-ezgif.com-gif-to-sprite-converter1_15
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 239
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95b93e03dd03e84a9d9e87fd404810c
+      internalID: 1737979779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar-ezgif.com-gif-to-sprite-converter1_16
+      rect:
+        serializedVersion: 2
+        x: 2777
+        y: 239
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d318fc00d05bcf24a9f3ee9f41f3c9b6
+      internalID: -847442542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar-ezgif.com-gif-to-sprite-converter1_17
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 168
+        width: 18
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cf1f4d146742a42bb6dff61257e22b
+      internalID: -906215231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar-ezgif.com-gif-to-sprite-converter1_18
+      rect:
+        serializedVersion: 2
+        x: 2788
+        y: 168
+        width: 14
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da093a8564dca5458e8a9852dc1c33b
+      internalID: 2051382783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar-ezgif.com-gif-to-sprite-converter1_19
+      rect:
+        serializedVersion: 2
+        x: 4226
+        y: 168
+        width: 17
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62edc7c8904af9a458c131e2d9a384b9
+      internalID: 170077755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar-ezgif.com-gif-to-sprite-converter1_20
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 147
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0911768fcdf1147950c0599f6ce607
+      internalID: 587052401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar-ezgif.com-gif-to-sprite-converter1_21
+      rect:
+        serializedVersion: 2
+        x: 2777
+        y: 147
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fa0bd478344944bb09cb8d6a5360b5
+      internalID: 581340221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar-ezgif.com-gif-to-sprite-converter1_22
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 88
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19445b264da4ce545badc7b76e2f8d34
+      internalID: -1700107610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar-ezgif.com-gif-to-sprite-converter1_23
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 98
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e56392936c2cc41b802fe5d250e31e
+      internalID: 2077910502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthBar-ezgif.com-gif-to-sprite-converter1_24
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 77
+        width: 67
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc93a3a9283f2b94cb0f86a723779e30
+      internalID: 1124793733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      HealthBar-ezgif.com-gif-to-sprite-converter1_0: -1306492970
+      HealthBar-ezgif.com-gif-to-sprite-converter1_1: -1839342648
+      HealthBar-ezgif.com-gif-to-sprite-converter1_10: 1634608611
+      HealthBar-ezgif.com-gif-to-sprite-converter1_11: -443953319
+      HealthBar-ezgif.com-gif-to-sprite-converter1_12: 606489764
+      HealthBar-ezgif.com-gif-to-sprite-converter1_13: 1393324622
+      HealthBar-ezgif.com-gif-to-sprite-converter1_14: -1845506015
+      HealthBar-ezgif.com-gif-to-sprite-converter1_15: 1737979779
+      HealthBar-ezgif.com-gif-to-sprite-converter1_16: -847442542
+      HealthBar-ezgif.com-gif-to-sprite-converter1_17: -906215231
+      HealthBar-ezgif.com-gif-to-sprite-converter1_18: 2051382783
+      HealthBar-ezgif.com-gif-to-sprite-converter1_19: 170077755
+      HealthBar-ezgif.com-gif-to-sprite-converter1_2: -2021613797
+      HealthBar-ezgif.com-gif-to-sprite-converter1_20: 587052401
+      HealthBar-ezgif.com-gif-to-sprite-converter1_21: 581340221
+      HealthBar-ezgif.com-gif-to-sprite-converter1_22: -1700107610
+      HealthBar-ezgif.com-gif-to-sprite-converter1_23: 2077910502
+      HealthBar-ezgif.com-gif-to-sprite-converter1_24: 1124793733
+      HealthBar-ezgif.com-gif-to-sprite-converter1_3: 1191276215
+      HealthBar-ezgif.com-gif-to-sprite-converter1_4: -1868181299
+      HealthBar-ezgif.com-gif-to-sprite-converter1_5: -1448861682
+      HealthBar-ezgif.com-gif-to-sprite-converter1_6: -866630085
+      HealthBar-ezgif.com-gif-to-sprite-converter1_7: -934872180
+      HealthBar-ezgif.com-gif-to-sprite-converter1_8: -295081807
+      HealthBar-ezgif.com-gif-to-sprite-converter1_9: -1105965059
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
