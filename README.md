@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner_pong.png" width="800" />
+  <img src="GALAXYPONGGIF.gif" width="800" />
 </p>
 
 ## About
